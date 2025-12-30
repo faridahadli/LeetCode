@@ -1,8 +1,7 @@
 package com.farid.ahadli.T1Array.T1PrefixSum;
 
-import java.util.Scanner;
-
 /*
+303. Range Sum Query - Immutable
 https://leetcode.com/problems/range-sum-query-immutable/description/
 
 Given an integer array nums, handle multiple queries of the following type:
@@ -53,11 +52,6 @@ public class Q303RangeSumQueryImmutable {
 
     public int sumRange(int left, int right) {
       return prefixSumArray[right + 1] - prefixSumArray[left];
-    }
-
-    public static void main(String... args) {
-
-      Scanner scanner = new Scanner(System.in);
     }
   }
 }
