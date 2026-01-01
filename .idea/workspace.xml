@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="Establish project">
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="303. Range Sum Query - Immutable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q560SubarraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q303RangeSumQueryImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q303RangeSumQueryImmutable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,32 +40,31 @@
 }</component>
   <component name="ProjectId" id="37ZtBsPdL4rH5PnNkRHOud6Bnxw" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/farid/Documents/MEGA/git_projects_java/Leetcode/src/main/java/com/farid/ahadli/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/farid/Documents/MEGA/git_projects_java/Leetcode/src/main/java/com/farid/ahadli/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\farid\Documents\MEGA\git_projects_java\Leetcode\src\main\java\com\farid\ahadli" />
@@ -87,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1767122290860</updated>
       <workItem from="1767122292124" duration="1104000" />
-      <workItem from="1767123414891" duration="1831000" />
+      <workItem from="1767123414891" duration="2744000" />
+      <workItem from="1767181537545" duration="3657000" />
+      <workItem from="1767272237966" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="Establish project">
       <option name="closed" value="true" />
@@ -97,14 +98,34 @@
       <option name="project" value="LOCAL" />
       <updated>1767122980122</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Establish project">
+      <option name="closed" value="true" />
+      <created>1767125349749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767125349749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="303. Range Sum Query - Immutable">
+      <option name="closed" value="true" />
+      <created>1767125476391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767125476391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add solution to Q303 Range Sum Query - Immutable" />
     <MESSAGE value="Establish project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Establish project" />
+    <MESSAGE value="q303" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q303RangeSumQueryImmutable.java" />
+    <MESSAGE value="303. Range Sum Query - Immutable" />
+    <option name="LAST_COMMIT_MESSAGE" value="303. Range Sum Query - Immutable" />
   </component>
 </project>
