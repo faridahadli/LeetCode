@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="303. Range Sum Query - Immutable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q560SubarraySumEqualsK.java" afterDir="false" />
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="560. Subarray Sum Equals K">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T2TwoPointers/Q1TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T2TwoPointers/Q42TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T3ReverseArray/Q344ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T4KadanesAlgorithm/Q121BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T4KadanesAlgorithm/Q53MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T2String/T1Palindrome/Q125ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +34,16 @@
     &quot;assignee&quot;: &quot;faridahadli&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/faridahadli/LeetCode.git&quot;,
-    &quot;accountId&quot;: &quot;52bfbead-44da-4224-a274-8428e31a4bcd&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/faridahadli/LeetCode.git",
+    "accountId": "52bfbead-44da-4224-a274-8428e31a4bcd"
   }
-}</component>
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/ms-21.0.9/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/ms-21.0.9/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -45,6 +54,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1TwoSum.executor&quot;: &quot;Run&quot;,
     &quot;Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,15 +62,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/farid/Documents/MEGA/git_projects_java/luriaLab/http-health-check&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/farid/Documents/MEGA/git_projects_java/Leetcode/src/main/java/com/farid/ahadli/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6195402&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -70,6 +83,26 @@
       <recent name="C:\Users\farid\Documents\MEGA\git_projects_java\Leetcode\src\main\java\com\farid\ahadli" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Q1TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T1Array.T2TwoPointers.Q1TwoSum" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.farid.ahadli.T1Array.T2TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q1TwoSum" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +111,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="" />
@@ -88,7 +122,13 @@
       <workItem from="1767122292124" duration="1104000" />
       <workItem from="1767123414891" duration="2744000" />
       <workItem from="1767181537545" duration="3657000" />
-      <workItem from="1767272237966" duration="331000" />
+      <workItem from="1767272237966" duration="1417000" />
+      <workItem from="1767371231542" duration="18724000" />
+      <workItem from="1767555354128" duration="3202000" />
+      <workItem from="1767636914154" duration="5673000" />
+      <workItem from="1767700062715" duration="321000" />
+      <workItem from="1767701675278" duration="3000" />
+      <workItem from="1767975876047" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Establish project">
       <option name="closed" value="true" />
@@ -114,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767125476391</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="560. Subarray Sum Equals K">
+      <option name="closed" value="true" />
+      <created>1767273061848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767273061848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +174,7 @@
     <MESSAGE value="q303" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q303RangeSumQueryImmutable.java" />
     <MESSAGE value="303. Range Sum Query - Immutable" />
-    <option name="LAST_COMMIT_MESSAGE" value="303. Range Sum Query - Immutable" />
+    <MESSAGE value="560. Subarray Sum Equals K" />
+    <option name="LAST_COMMIT_MESSAGE" value="560. Subarray Sum Equals K" />
   </component>
 </project>
