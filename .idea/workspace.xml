@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="560. Subarray Sum Equals K">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T2TwoPointers/Q1TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T2TwoPointers/Q42TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T3ReverseArray/Q344ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T4KadanesAlgorithm/Q121BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T1Array/T4KadanesAlgorithm/Q53MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T2String/T1Palindrome/Q125ValidPalindrome.java" afterDir="false" />
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="add new answers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T2String/T2Prefix/Q14LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +32,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/faridahadli/LeetCode.git",
-    "accountId": "52bfbead-44da-4224-a274-8428e31a4bcd"
+    "accountId": "65587911-6386-4fbd-b14d-5351a6099fec"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
@@ -51,39 +46,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/farid/Documents/MEGA/git_projects_java/luriaLab/http-health-check&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/farid/Documents/MEGA/git_projects_java/Leetcode/src/main/java/com/farid/ahadli/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6195402&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Q14LongestCommonPrefix.executor": "Debug",
+    "Application.Q1TwoSum.executor": "Run",
+    "Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/farid/Documents/MEGA/git_projects_java/luriaLab/http-health-check",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/farid/Documents/MEGA/git_projects_java/Leetcode/src/main/java/com/farid/ahadli/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.6195402",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\farid\Documents\MEGA\git_projects_java\Leetcode\src\main\java\com\farid\ahadli" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Q14LongestCommonPrefix">
+    <configuration name="Q14LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T2String.T2Prefix.Q14LongestCommonPrefix" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.farid.ahadli.T2String.T2Prefix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q1TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T1Array.T2TwoPointers.Q1TwoSum" />
       <module name="LeetCode" />
@@ -99,17 +108,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q14LongestCommonPrefix" />
         <item itemvalue="Application.Q1TwoSum" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -162,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767273061848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new answers">
+      <option name="closed" value="true" />
+      <created>1767988532226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767988532226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/farid/ahadli/T1Array/T1PrefixSum/Q303RangeSumQueryImmutable.java" />
     <MESSAGE value="303. Range Sum Query - Immutable" />
     <MESSAGE value="560. Subarray Sum Equals K" />
-    <option name="LAST_COMMIT_MESSAGE" value="560. Subarray Sum Equals K" />
+    <MESSAGE value="add new answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new answers" />
   </component>
 </project>
