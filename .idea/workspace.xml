@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="add new answers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T2String/T2Prefix/Q14LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="Q14LongestCommonPrefix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767988532226</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Q14LongestCommonPrefix">
+      <option name="closed" value="true" />
+      <created>1770118035787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770118035787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +191,7 @@
     <MESSAGE value="303. Range Sum Query - Immutable" />
     <MESSAGE value="560. Subarray Sum Equals K" />
     <MESSAGE value="add new answers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new answers" />
+    <MESSAGE value="Q14LongestCommonPrefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q14LongestCommonPrefix" />
   </component>
 </project>
