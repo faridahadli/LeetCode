@@ -21,7 +21,6 @@ public class Q2AddTwoNumbers {
                    } else {
                        return null;
                    }
-
                }
                if(l1 == null){
                    int[] res = addNum((l2.val),remaining);
