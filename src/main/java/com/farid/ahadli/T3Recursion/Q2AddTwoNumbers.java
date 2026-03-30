@@ -43,5 +43,32 @@ public class Q2AddTwoNumbers {
            public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
                return addNum( l1, l2,0);
            }
+
+           // better solution
+        // collapses all branches to single one
+/*           class Solution {
+               private int[] addDigits(int i, int j) {
+                   int sum = i + j;
+                   return new int[]{sum % 10, sum / 10};
+               }
+
+               private ListNode addNum(ListNode l1, ListNode l2, int carry) {
+                   if (l1 == null && l2 == null) {
+                       return carry > 0 ? new ListNode(carry) : null;
+                   }
+
+                   int v1 = (l1 != null) ? l1.val : 0;
+                   int v2 = (l2 != null) ? l2.val : 0;
+                   ListNode next1 = (l1 != null) ? l1.next : null;
+                   ListNode next2 = (l2 != null) ? l2.next : null;
+
+                   int[] res = addDigits(v1, v2 + carry);
+                   return new ListNode(res[0], addNum(next1, next2, res[1]));
+               }
+
+               public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+                   return addNum(l1, l2, 0);
+               }
+           }*/
     }
 }
