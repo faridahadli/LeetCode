@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="q50">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T3Recursion/Q2550CountCollisionsOfMonkeysOnAPolygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="q2550" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775032449954</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="q2550">
+      <option name="closed" value="true" />
+      <created>1775075926730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775075926730</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +282,8 @@
     <MESSAGE value="q2" />
     <MESSAGE value="q24" />
     <MESSAGE value="q50" />
-    <option name="LAST_COMMIT_MESSAGE" value="q50" />
+    <MESSAGE value="q2550" />
+    <option name="LAST_COMMIT_MESSAGE" value="q2550" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
