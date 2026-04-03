@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="q2550" />
+    <list default="true" id="e1aa8216-ac7c-4f92-a4f1-0bd8b1448095" name="Changes" comment="q1922">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/farid/ahadli/T3Recursion/Q390EliminationGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,7 @@
     "Application.Q14LongestCommonPrefix.executor": "Debug",
     "Application.Q1TwoSum.executor": "Run",
     "Application.Q2550CountCollisionsOfMonkeysOnAPolygon.executor": "Run",
+    "Application.Q390EliminationGame.executor": "Run",
     "Application.test.executor": "Debug",
     "Maven.LeetCode [com.diffplug.spotless:spotless-maven-plugin:3.1.0:apply].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -78,7 +82,7 @@
       <recent name="C:\Users\farid\Documents\MEGA\git_projects_java\Leetcode\src\main\java\com\farid\ahadli" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2550CountCollisionsOfMonkeysOnAPolygon">
+  <component name="RunManager" selected="Application.Q390EliminationGame">
     <configuration name="Q14LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T2String.T2Prefix.Q14LongestCommonPrefix" />
       <module name="LeetCode" />
@@ -118,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q390EliminationGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T3Recursion.Q390EliminationGame" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.farid.ahadli.T3Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.farid.ahadli.T2String.T3Anagram.test" />
       <module name="LeetCode" />
@@ -133,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q390EliminationGame" />
         <item itemvalue="Application.Q2550CountCollisionsOfMonkeysOnAPolygon" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Q14LongestCommonPrefix" />
@@ -263,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775075926730</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="q1922">
+      <option name="closed" value="true" />
+      <created>1775158292318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775158292318</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,17 +309,7 @@
     <MESSAGE value="q24" />
     <MESSAGE value="q50" />
     <MESSAGE value="q2550" />
-    <option name="LAST_COMMIT_MESSAGE" value="q2550" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/farid/ahadli/T3Recursion/Q2550CountCollisionsOfMonkeysOnAPolygon.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="q1922" />
+    <option name="LAST_COMMIT_MESSAGE" value="q1922" />
   </component>
 </project>
