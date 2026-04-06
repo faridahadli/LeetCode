@@ -63,4 +63,8 @@ public class Q390EliminationGame {
 
      */
 
+    public static void main(String[] args) {
+        Q390EliminationGame c = new Q390EliminationGame();
+        System.out.println(c.lastRemaining(10));;
+    }
 }
