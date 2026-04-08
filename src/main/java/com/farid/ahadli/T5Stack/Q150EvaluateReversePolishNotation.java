@@ -31,4 +31,20 @@ public class Q150EvaluateReversePolishNotation {
 
         System.out.println( evalRPN(new String[]{"4","13","5","/","+"}));
     }
+
+    /*
+    public int evalRPN(String[] tokens) {
+    Deque<Integer> stack = new ArrayDeque<>();
+    for (String t : tokens) {
+        switch (t) {
+            case "+" -> { int b = stack.pop(), a = stack.pop(); stack.push(a + b); }
+            case "-" -> { int b = stack.pop(), a = stack.pop(); stack.push(a - b); }
+            case "*" -> { int b = stack.pop(), a = stack.pop(); stack.push(a * b); }
+            case "/" -> { int b = stack.pop(), a = stack.pop(); stack.push(a / b); }
+            default  -> stack.push(Integer.parseInt(t));
+        }
+    }
+    return stack.pop();
+}
+     */
 }
