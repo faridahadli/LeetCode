@@ -13,7 +13,7 @@ public class Q739DailyTemperatures {
         int[] answer = new int[temperatures.length];
         Deque<Integer[]> stack = new ArrayDeque<>();
         for (int i = 0; i < temperatures.length; i++) {
-            while (!stack.isEmpty() && stack.peekFirst()[0] < temperatures[i]) {
+            while (!stack.isEmpty() && stack.peek()[0] < temperatures[i]) {
                 Integer [] temperaturePositionArr = stack.pop();
                 answer[temperaturePositionArr[1]] = i - temperaturePositionArr[1];
             }
