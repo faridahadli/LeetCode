@@ -5,19 +5,19 @@ public class Q150EvaluateReversePolishNotation {
     private static int [] evalRPN(String[] tokens,int index){
         String currentElement = tokens[index];
         if("+-*/".contains(currentElement)){
-            int [] left = evalRPN(tokens, --index);
-            int [] right  = evalRPN(tokens, --left[1]);
+            int [] right = evalRPN(tokens, index - 1);
+            int [] left  = evalRPN(tokens, right[1] - 1);
             int res;
             if(currentElement.equals("*")){
-                res = right[0]*left[0];
+                res = left[0]*right[0];
             } else if (currentElement.equals("/")) {
-                res = right[0]/left[0];
+                res = left[0]/right[0];
             } else if (currentElement.equals("+")){
-                res = right[0]+left[0];
+                res = left[0]+right[0];
             } else {
-                res = right[0]-left[0];
+                res = left[0]-right[0];
             }
-            return new int[]{ res, right[1] };
+            return new int[]{ res, left[1] };
         }else{
             return new int[]{Integer.parseInt(tokens[index]),index} ;
         }
@@ -29,7 +29,7 @@ public class Q150EvaluateReversePolishNotation {
 
     public static void main(String[] args) {
 
-        System.out.println( evalRPN(new String[]{"4","13","5","/","+"}));
+        System.out.println( evalRPN(new String[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"}));
     }
 
     /*
